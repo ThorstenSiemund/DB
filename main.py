@@ -4,6 +4,7 @@ from db_declarations import Base, Person
 from csv import DictReader
 import getopt
 import sys
+from time import time
 
 
 def init(session):
@@ -16,6 +17,7 @@ def init(session):
     session.query(Person).delete()
     session.commit()
 
+    start = time()
     # read all fake names and add them to the DB
     with open('fakename.csv', 'r', encoding='utf-8-sig') as csv_file:
         reader = DictReader(csv_file)
@@ -29,6 +31,7 @@ def init(session):
             if session.query(Person).filter(and_(Person.firstname == person.firstname), Person.lastname == person.lastname).count() > 0:
                 print('exists: ' + person.firstname + ' ' + person.lastname)
             session.add(person)
+    print('Runtime: ', time() - start)
     session.commit()
 
 
@@ -72,8 +75,7 @@ def create_session():
 
 
 def main(argv):
-    """
-    Main program
+    """ Main program
     """
     session = create_session()
     try:

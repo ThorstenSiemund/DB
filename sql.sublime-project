@@ -11,6 +11,17 @@
 	"folders":
 	[
 		{
+			"file_exclude_patterns":
+			[
+				"pyvenv.cfg"
+			],
+			"folder_exclude_patterns":
+			[
+				"Include",
+				"Scripts",
+				"Lib",
+				"__pycache__"
+			],
 			"path": "."
 		}
 	]
