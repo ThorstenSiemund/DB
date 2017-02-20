@@ -1,0 +1,503 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lb_",
+				"lb_user\tstatement"
+			],
+			[
+				"create_",
+				"create_session\tfunction"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"last",
+				"lastname\tstatement"
+			],
+			[
+				"ex",
+				"exit\tfunction"
+			],
+			[
+				"B",
+				"Book\tclass"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"Address",
+				"address"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 3381,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "db_declarations.py",
+			"settings":
+			{
+				"buffer_size": 678,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gui.py",
+			"settings":
+			{
+				"buffer_size": 1825,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"instal p",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"snippet",
+				"Snippet: Try/Except"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"find",
+				"Find: In Open Files"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install packg",
+				"Package Control: Install Package"
+			],
+			[
+				"preferences: settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"install\t",
+				"Install Package Control"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"sqltest.py",
+			"pwd",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Integration/~PyProjects/DB"
+	],
+	"file_history":
+	[
+		"/d/Integration/~PyProjects/DB/Lib/site-packages/bcrypt/__init__.py",
+		"/d/Integration/~PyProjects/DB/Lib/site-packages/bcrypt/__about__.py",
+		"/D/Integration/~PyProjects/DB/FakeName.csv",
+		"/D/Integration/~PyProjects/DB/SqlTest.py",
+		"/D/Integration/~PyProjects/DB/main_cfg.py",
+		"/D/Integration/~PyProjects/DB/databaseconfig.py",
+		"/D/Programme/Sublime/Data/Packages/User/Anaconda.sublime-settings",
+		"/D/Programme/Sublime/Data/Packages/User/_Anaconda.sublime-settings",
+		"/D/Integration/~PyProjects/Text/security.py",
+		"/D/Programme/Sublime/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/d/Abfall/decoratorTest.py",
+		"/D/Integration/~PyProjects/Text/ceasarCipher.py",
+		"/D/Programme/Sublime/Data/Packages/User/test.sublime-snippet",
+		"/D/Programme/Sublime/Packages/User/Anaconda.sublime-settings",
+		"/D/Integration/~PyProjects/Text/terminal.glue",
+		"/D/Integration/Incheo (Korea)/Arrival/readme.txt",
+		"/d/Abfall/Watch.py",
+		"/d/Abfall/thread.py",
+		"/d/Abfall/test2.py",
+		"/d/Abfall/test1.py",
+		"/d/Abfall/test.py",
+		"/D/Integration/~PyProjects/Text/checkPalindrome.py",
+		"/D/Integration/~PyProjects/Text/countVowels.py",
+		"/D/Integration/~PyProjects/Text/countWords.py",
+		"/D/Integration/~PyProjects/Text/FizzBuzz.py",
+		"/D/Integration/~PyProjects/Text/countWords.txt",
+		"/D/Integration/~PyProjects/Text/caesarCipher.py",
+		"/D/Programme/Sublime/Data/Packages/User/Package Control.sublime-settings",
+		"/D/Integration/~PyProjects/AnaLog/ORCA_traceMessages.log.1",
+		"/D/Integration/~PyProjects/AnaLog/ORCA_traceMessages.log",
+		"/D/Integration/~PyProjects/AnaLog/ORCA_traceMessages.log.2",
+		"/D/Integration/~PyProjects/AnaLog/ORCA_traceMessages.log.10"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"<current file>",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tk.",
+			"MArco,Fuhrmann",
+			"fuhrmann",
+			"saenger",
+			"88356",
+			"tim",
+			"88356",
+			"80",
+			"80356",
+			"33442",
+			"orm",
+			"Base",
+			"nullable",
+			")\n",
+			">>>",
+			"Worker.*Workflow",
+			"to",
+			"ist",
+			"Worker.*Workflow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2931,
+								2931
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "db_declarations.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gui.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "sql.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Integration\\~PyProjects\\Text\\PyTest.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
