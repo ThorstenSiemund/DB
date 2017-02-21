@@ -1,4 +1,7 @@
+*.pyc
 /__pycache__
 /Include
 /Lib
 /Scripts
+*.pyc
+/SQLAlchemy/__pycache__
