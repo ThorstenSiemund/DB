@@ -77,7 +77,6 @@ def create_session():
 def main(argv):
     """ Main program
     """
-    session = create_session()
     try:
         opts, args = getopt.getopt(argv, 'h', ['initdb'])
     except getopt.GetoptError:
@@ -95,6 +94,7 @@ def main(argv):
             if answer == 'YES':
                 init(session)
 
+    session = create_session()
     search_firstname(session, 'Tim')
 
 
