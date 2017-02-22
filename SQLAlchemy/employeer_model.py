@@ -11,7 +11,7 @@ class Department(Base):
     name = Column(String(10))
 
     def __repr__(self):
-        return '<Department(name="%s")>' % (self.name)
+        return 'Department(%s)' % (self.name)
 
 
 class Employee(Base):
@@ -20,9 +20,9 @@ class Employee(Base):
     firstname = Column(String(20))
     lastname = Column(String(20))
     hired_on = Column(String(10))
-    # department_id = Column(Integer, ForeignKey('departments.id'))
-    department = relationship('Department')
+    department_id = Column(Integer, ForeignKey('departments.id'))
+    department = relationship('Department', backref='employees')
 
     def __repr__(self):
-        return('<Employee(firstname="%s", lastname="%s", hired_on="%s")>' %
-               (self.firstname, self.lastname, self.hired_on))
+        return('Employee(%s, %s, hired on %s)' %
+               (self.lastname, self.firstname, self.hired_on))
