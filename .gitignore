@@ -4,4 +4,9 @@
 /Lib
 /Scripts
 *.pyc
+*sqlite
+*sublime*
 /SQLAlchemy/__pycache__
+/SQLAlchemy/_*sqlite
+/Peewee/_*sqlite
+/Peewee/_*sqlite
